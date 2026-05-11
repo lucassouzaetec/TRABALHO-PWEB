@@ -12,6 +12,7 @@ body{
     /*gradiante de fundo: 135deg e a direção, de roxo claro para roxo escuro*/
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     min-height: 100vh;/*vh = viewport height, Minimo de 100% da altura da tela*/;  
+    display: flex;
 }
 Header{
     background-color: rgba(255, 255, 255, 0.95);/*branco com 95% de opacidade (trasparencia)*/
