@@ -1,28 +1,120 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="pág_inicial.css">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Filmes — Cinerama</title>
+  <link rel="stylesheet" href="filmes.css" />
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="pág_inicial(vitor).html">Página Inicial</a> 
-            <a href="serie(Lucas).html">Séries</a>
-            <a href="desenho(Enzo).html">Desenhos</a>
-         </nav>
-    </header>
-    <main>
 
-    </main>
-    <footer>
-        <label for="">Rodovia Raposo Tavares KM 316 a 318</label>
-        <label for="">Bairro das Bananeiras</label>
-        <p> <a href="https://instagram.com/etecpirajuoficial/"target="_blank"><b>@etecpirajuoficial</b></a
-            > 
-        </p>
-    </footer>
+  <header>
+    <a href="index.html" class="header-logo">
+      <span class="header-logo-icon"><img src="cinema-projector-and-film-strip-illustration-png.webp" alt="logo" width="50"></span>
+      Cinerama
+    </a>
+    <nav>
+      <a href="pág_inicial(vitor).html">Página inicial</a>  
+      <a href="serie(Lucas).html">Séries</a>
+      <a href="desenho(Enzo).html">Desenhos</a>
+    </nav>
+    <button class="header-search" title="Buscar">🔍</button>
+  </header>
+
+  <main class="main-page">
+    <div class="page-wrap">
+
+      <!-- Título da página -->
+      <div class="page-header">
+        <h1 class="page-title"><img src="Gemini_Generated_Image_zeurojzeurojzeur-removebg-preview.png" alt="logo-filmes" width="90"></h1>
+        <h1 class="page-title">Filmes</h1>
+        <p class="page-subtitle">Reviews, rankings e recomendações dos melhores filmes.</p>
+      </div>
+
+      <!-- Grid de filmes -->
+      <div class="filmes-grid">
+
+        <div class="filme-card">
+          <div class="filme-thumb"><img src="69ce55c301d24f8ce35d1d2a0f1aa2be.webp" alt="duna"></div>
+          <div class="filme-info">
+            <span class="filme-genero">Ficção Científica</span>
+            <h2 class="filme-titulo">Duna: Parte Dois</h2>
+            <p class="filme-desc">A jornada de Paul Atreides continua em Arrakis, em uma épica batalha pelo controle do universo.</p>
+            <div class="filme-meta">
+              <span class="filme-nota">⭐ 9.1</span>
+              <span class="filme-ano">2024</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="filme-card">
+          <div class="filme-thumb"><img src="deadpool-e-wolverine-1024x512.webp" alt=""></div>
+          <div class="filme-info">
+            <span class="filme-genero">Ação</span>
+            <h2 class="filme-titulo">Deadpool & Wolverine</h2>
+            <p class="filme-desc">Dois dos maiores anti-heróis da Marvel se unem em uma aventura caótica pelo multiverso.</p>
+            <div class="filme-meta">
+              <span class="filme-nota">⭐ 8.7</span>
+              <span class="filme-ano">2024</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="filme-card">
+          <div class="filme-thumb"><img src="oppenheimer_cartaz__t0248js.webp" alt=""></div>
+          <div class="filme-info">
+            <span class="filme-genero">Drama</span>
+            <h2 class="filme-titulo">Oppenheimer</h2>
+            <p class="filme-desc">A história do físico que liderou o projeto que mudou o mundo para sempre.</p>
+            <div class="filme-meta">
+              <span class="filme-nota">⭐ 9.4</span>
+              <span class="filme-ano">2023</span>
+            </div>
+          </div>
+        </div>
+
+             <div class="filme-card">
+          <div class="filme-thumb"><img src="compose.webp" alt=""></div>
+          <div class="filme-info">
+            <span class="filme-genero">Ação</span>
+            <h2 class="filme-titulo">Avatar: O Caminho da Água</h2>
+            <p class="filme-desc">Jake Sully e Neytiri lutam para proteger sua família em um novo lar nos oceanos de Pandora.</p>
+            <div class="filme-meta">
+              <span class="filme-nota">⭐ 8.2</span>
+              <span class="filme-ano">2022</span>
+            </div>
+          </div>
+        </div>
+ 
+        <div class="filme-card">
+          <div class="filme-thumb"><img src="barbie_capa__34alxbk7w.webp" alt=""></div>
+          <div class="filme-info">
+            <span class="filme-genero">Comédia</span>
+            <h2 class="filme-titulo">Barbie</h2>
+            <p class="filme-desc">Barbie e Ken saem da Barbieland para o mundo real em uma aventura cheia de humor e reflexão.</p>
+            <div class="filme-meta">
+              <span class="filme-nota">⭐ 8.0</span>
+              <span class="filme-ano">2023</span>
+            </div>
+          </div>
+        </div>
+ 
+        <div class="filme-card">
+          <div class="filme-thumb"><img src="g21bf.webp" alt=""></div>
+          <div class="filme-info">
+            <span class="filme-genero">Comédia</span>
+            <h2 class="filme-titulo">Todo Mundo em Pânico</h2>
+            <p class="filme-desc">Adolescentes fogem de um assassino atrapalhado nesta paródia ácida e hilária de filmes de terror.</p>
+            <div class="filme-meta">
+              <span class="filme-nota">⭐ 6.3</span>
+              <span class="filme-ano">2000</span>
+            </div>
+          </div>
+        </div>        
+
+      </div>
+    </div>
+  </main>
+
 </body>
 </html>
